@@ -23,4 +23,4 @@ class QuotesSpider(scrapy.Spider):
             print "--> visiting ",next_page
             yield scrapy.Request(next_page, callback=self.parse)
 
-µµ½ºÃ¢ ¸í·É¾î:scrapy runspider ds_web_data_paging.py -o src/ds_web_data_paging.json -t json --logfile src/ds_web_data_paging.logfile
+ÂµÂµÂ½ÂºÃƒÂ¢ Â¸Ã­Â·Ã‰Â¾Ã®:scrapy runspider ds_web_data_paging.py -o src/ds_web_data_paging.json -t json --logfile src/ds_web_data_paging.logfile
